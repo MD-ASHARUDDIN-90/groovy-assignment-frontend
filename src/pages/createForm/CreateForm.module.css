@@ -1,0 +1,174 @@
+.container {
+  height: 100vh;
+  /* background-color: rgb(121, 146, 168); */
+}
+
+.content_container {
+  width: 100%;
+  /* display: col;
+  justify-content: center;
+  align-items: center; */
+}
+.content_heading {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+
+.content_heading button {
+  padding: 0.8rem 0.8rem;
+  border: none;
+  background-color: rgb(86, 170, 255);
+  color: white;
+  border-radius: 5%;
+  cursor: pointer;
+}
+
+.content_heading button:active {
+  background-color: rgb(196, 196, 196);
+  color: black;
+}
+
+.form_container {
+  padding: 1rem 1.5rem;
+}
+
+.form_container .inputContainer input {
+  height: 5vh;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.inputContainer label {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1em;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.inputContainer input {
+  height: 2.3rem;
+  width: 60%;
+  padding: 0rem 1rem;
+  border: 0.2px solid rgb(168, 168, 168);
+  outline: none;
+  border-radius: 1%;
+  background-color: rgb(246, 247, 247);
+}
+
+.inputContainer input:focus {
+  outline: 0.1rem solid rgb(113, 224, 255);
+  border: 0.1rem solid rgb(109, 222, 253);
+}
+
+.form_inputs_container {
+  margin-top: 1rem;
+  overflow-y: scroll;
+  height: 60vh;
+}
+
+.inputs {
+  margin-top: 1rem;
+  /* background-color: rgba(225, 240, 255, 0.4); */
+  margin: 1rem;
+  padding: 1rem;
+  box-shadow: 0px 0px 2px rgb(181, 181, 181);
+  min-height: 30vh;
+}
+.inputs .inputContainer {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.inputContainer select {
+  height: 5vh;
+  background-color: rgb(246, 247, 247);
+  padding: 0rem 1rem;
+  border: 0.2px solid rgb(168, 168, 168);
+  outline: none;
+  width: 50%;
+  border-radius: 1%;
+}
+.inputContainer input {
+  height: 3.9vh;
+  background-color: rgb(246, 247, 247);
+  padding: 0rem 1rem;
+  border: 0.2px solid rgb(168, 168, 168);
+  outline: none;
+  border-radius: 1%;
+}
+
+.inputs .inputContainer select:focus {
+  border: 0.1rem solid rgb(113, 224, 255);
+}
+
+.deleteIcon {
+  font-size: 4rem;
+  cursor: pointer;
+  fill: red;
+}
+
+.input_sub_container {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.bottomInputBox {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: 30%;
+}
+
+.subOptionsContainer {
+  margin-top: 1rem;
+  width: 60%;
+}
+
+.addOptionBtn {
+  margin-top: 1rem;
+  padding: 0.4rem 0.4rem;
+  border: none;
+  background-color: rgb(86, 170, 255);
+  color: white;
+  border-radius: 5%;
+  cursor: pointer;
+}
+.addOptionBtn:active {
+  background-color: rgb(196, 196, 196);
+  color: black;
+}
+
+.optionsContainer {
+  margin-top: 1rem;
+}
+
+.submitBtn {
+  padding: 0.8rem 0.8rem;
+  border: none;
+  background-color: rgb(86, 170, 255);
+  color: white;
+  border-radius: 5%;
+  cursor: pointer;
+}
+
+.submitBtnContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

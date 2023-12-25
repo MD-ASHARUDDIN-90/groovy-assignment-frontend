@@ -1,0 +1,44 @@
+/* Form.module.css */
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.input,
+.textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.radio,
+.checkbox {
+  margin: 10px 0;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.label {
+  margin-bottom: 5px;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 600px) {
+  .form {
+    padding: 10px;
+  }
+}

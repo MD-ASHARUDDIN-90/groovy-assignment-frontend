@@ -1,0 +1,26 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  height: 8vh;
+  background-color: rgb(136, 196, 255);
+  width: 100%;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0);
+}
+
+.navbar h2 {
+  font-family: cursive;
+}
+
+.option {
+  display: flex;
+  gap: 2rem;
+}
+
+.option .link {
+  text-decoration: none;
+  color: black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.1rem;
+}
